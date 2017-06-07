@@ -35,13 +35,13 @@ import scala.util.matching.Regex.Match
 
   }
 
-  println(convertCode(".-"))
+  println(convertCode(".-")) //just to do a simple test
 
 
 
 
 
-def convertMorseLanguage (morse: String) = {
+def convertMorseLanguage (morse: String) = {  //created another function
 
   var temp: String = ""
 
